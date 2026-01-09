@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    
+    <!-- NuGet Package Metadata -->
+    <PackageId>TimestampCode.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Walter Soto</Authors>
+    <Company>Walter Soto</Company>
+    <Description>A strict, lightweight .NET library for converting, parsing, and validating timestamps across common wire formats. Enforces UTC normalization, explicit units, and deterministic behavior to eliminate time-handling bugs.</Description>
+    <PackageTags>time;timestamp;unix-time;iso8601;rfc3339;serialization;utc;datetime;conversion</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/waltersoto/TimestampCode.Core</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/waltersoto/TimestampCode.Core</PackageProjectUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <Copyright>(c) 2026 Walter M. Soto</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

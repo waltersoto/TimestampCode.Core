@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../tests/Timestamp.Core.Tests/Timestamp.Core.Tests.csproj" />
+  <Project Path="Timestamp.Core/Timestamp.Core.csproj" />
+</Solution>
